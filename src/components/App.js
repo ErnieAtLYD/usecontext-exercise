@@ -1,6 +1,6 @@
 import React from "react";
 import FirstComponent from "./FirstComponent";
-import { AppContextProvider } from "../providers/AppContextProvider";
+import { AppContextProvider } from "../contexts/AppContextProvider";
 import "./App.css";
 
 // [x] Create a new component file called
