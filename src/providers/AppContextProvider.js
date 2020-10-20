@@ -8,13 +8,13 @@ export const AppContext = React.createContext();
 
 // Create an AppContextProvider component that does
 // the following:
-// [ ] Preface it with export, just like you did
-//     with AppContext
 // [ ] Render your context Provider -
 //     AppContext.Provider - with the value
 //     assigned, and forward all the other props.
 //     NOTE: Specficially, we'll need to also forward
 //     the children prop.
+// [ ] Preface the function with the export keyword,
+//     just like you did with AppContext
 
 export function AppContextProvider(props) {
   // you can also do the following
