@@ -1,6 +1,5 @@
 import React from "react";
 import FirstComponent from "./FirstComponent";
-import { AppContextProvider } from "../contexts/AppContextProvider";
 import "./App.css";
 
 // [x] Create a new component file called
@@ -8,6 +7,8 @@ import "./App.css";
 //     providers.We did this for you.
 // [ ] Import AppContextProvider using the import
 //     statement. (Don't forget: different directory!)
+//     NOTE: we may need to import things a little different,
+//     since we're not using export default in AppContextProvider.js.
 // [ ] Follow any instructions in ../providers/AppContextProvider.
 
 function App() {
@@ -24,9 +25,7 @@ function App() {
               component and follow the instructions
               there.
       */}
-      <AppContextProvider value={content}>
-        <FirstComponent />
-      </AppContextProvider>
+      <FirstComponent />
     </div>
   );
 }

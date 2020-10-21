@@ -9,12 +9,10 @@ import "./ComponentNeedingProps.css";
 //     AppContext out of the two modules,
 //     we can do this:
 //     import { AppContext } from [some path]
-import { AppContext } from "../contexts/AppContextProvider";
 
 function ComponentNeedingProps() {
-  // [ ] Get the value of content from useContext with the AppContext.
-  const content = React.useContext(AppContext);
-  // const content = '';
+  // [ ] Replace the value of content from useContext with the AppContext.
+  const content = "";
 
   return <h3>{content}</h3>;
 }
