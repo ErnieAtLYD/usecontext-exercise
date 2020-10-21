@@ -39,7 +39,8 @@
 
 #### Task
 
-- [ ] Pass the variable in `content` from `<App />` all the way down to `<ComponentNeedingProps />` using **prop drilling**.
+- [ ] Modify the exercise to use **Component Composition**, rather than using prop drilling.
+  - HINT: The idea of Component Composition takes advantage of the `children` prop inside React, which means we should see `{children}` in the JSX of one or more components above.
 
 #### When you're done
 
