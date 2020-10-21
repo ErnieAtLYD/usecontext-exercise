@@ -3,6 +3,9 @@
 ## To install this locally
 
 - [ ] Clone this repository.
+- [ ] cd into the project.
+- [ ] Type `yarn` to install the necessary packages.
+- [ ] Type `yarn start` at the command line to run create-react-app.
 
 ## Instructions
 
