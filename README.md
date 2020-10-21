@@ -12,7 +12,7 @@
 4. `<ThirdComponent />` should render `<ComponentNeedingProps />`.
 5. `<ComponentNeedingProps />` takes one prop, named `content`. This component should render the value of `content` from the `<App />` component, wrapped in `<h3></h3>` tags.
 
-### Challenge #1
+### Challenge #1: Using Prop Drilling
 
 #### Setup
 
@@ -28,7 +28,7 @@
 
 - [ ] Submit a pull request to merge <firstName-lastName>-part1 Branch into main and give your house instructor the URL. **Note:** they'll use this PR to check your work, however they won't merge this into the main branch.
 
-### Challenge #2
+### Challenge #2: Using Component Composition
 
 #### Setup
 
@@ -46,7 +46,7 @@
 
 - [ ] Submit a pull request to merge <firstName-lastName>-part2 Branch into main and give your house instructor the URL. **Note:** they'll use this PR to check your work, however they won't merge this into the main branch.
 
-### Challenge #3
+### Challenge #3: Using Context
 
 #### Setup
 
